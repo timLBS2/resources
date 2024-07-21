@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.uob.ExampleSTAGTests" time="0.99" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\Thomas\Desktop\resources\cw-stag\target\test-classes;C:\Users\Thomas\Desktop\resources\cw-stag\target\classes;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite\1.8.2\junit-platform-suite-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.2\junit-platform-suite-api-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.2\junit-platform-suite-engine-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.2\junit-platform-suite-commons-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\Thomas\.m2\repository\com\alexmerz\graphviz\dot-parser\1.0\dot-parser-1.0.jar;C:\Users\Thomas\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Thomas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Thomas\AppData\Local\Temp\surefire11929912777032879923\surefirebooter9089765435443411742.jar C:\Users\Thomas\AppData\Local\Temp\surefire11929912777032879923 2023-07-13T00-32-15_796-jvmRun1 surefire6772138067946129576tmp surefire_09982701929596668896tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Thomas\Desktop\resources\cw-stag\target\test-classes;C:\Users\Thomas\Desktop\resources\cw-stag\target\classes;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite\1.8.2\junit-platform-suite-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.2\junit-platform-suite-api-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.2\junit-platform-suite-engine-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.2\junit-platform-suite-commons-1.8.2.jar;C:\Users\Thomas\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\Thomas\.m2\repository\com\alexmerz\graphviz\dot-parser\1.0\dot-parser-1.0.jar;C:\Users\Thomas\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Thomas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Thomas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Thomas\Desktop\resources\cw-stag"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Thomas\AppData\Local\Temp\surefire11929912777032879923\surefirebooter9089765435443411742.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="Thomas"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Thomas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Thomas\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\Thomas\Desktop\resources\cw-stag"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Program Files\Python\Scripts\;D:\Program Files\Python\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;D:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\HashiCorp\Vagrant\bin;C:\Users\Thomas\AppData\Local\Microsoft\WindowsApps;E:\Program Files\apache-maven-3.9.0\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;D:\Program Files\Graphviz\bin;D:\Program Files\Pandoc\;E:\Program Files\mysql-8.0.33-winx64\bin;C:\Program Files\PowerShell\7\;C:\Users\Thomas\.jdks\temurin-17.0.6\bin;C:\Users\Thomas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Thomas\AppData\Local\GitHubDesktop\bin;C:\Users\Thomas\AppData\Roaming\npm;D:\Program Files (x86)\Nmap;D:\Program Files\msys64\mingw64\bin;E:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testChopDisorder" classname="edu.uob.ExampleSTAGTests" time="0.082"/>
+  <testcase name="testCut" classname="edu.uob.ExampleSTAGTests" time="0.025"/>
+  <testcase name="testGet" classname="edu.uob.ExampleSTAGTests" time="0.039"/>
+  <testcase name="testFight" classname="edu.uob.ExampleSTAGTests" time="0.048"/>
+  <testcase name="testChop" classname="edu.uob.ExampleSTAGTests" time="0.024"/>
+  <testcase name="testDrop" classname="edu.uob.ExampleSTAGTests" time="0.04"/>
+  <testcase name="testGold" classname="edu.uob.ExampleSTAGTests" time="0.126"/>
+  <testcase name="testGoto" classname="edu.uob.ExampleSTAGTests" time="0.022"/>
+  <testcase name="testHorn" classname="edu.uob.ExampleSTAGTests" time="0.05"/>
+  <testcase name="testLOOK" classname="edu.uob.ExampleSTAGTests" time="0.02"/>
+  <testcase name="testLook" classname="edu.uob.ExampleSTAGTests" time="0.026">
+    <system-out><![CDATA[you are in a log cabin in the woods.you can see: 
+a silver coin
+a razor sharp axe
+a locked wooden trapdoor in the floor
+a bottle of magic potion
+you can access from here: 
+forest
+
+true
+you are in a log cabin in the woods.you can see: 
+a silver coin
+a razor sharp axe
+a locked wooden trapdoor in the floor
+a bottle of magic potion
+you can access from here: 
+forest
+
+true
+]]></system-out>
+  </testcase>
+  <testcase name="testProduce" classname="edu.uob.ExampleSTAGTests" time="0.097"/>
+  <testcase name="testBlowHorn" classname="edu.uob.ExampleSTAGTests" time="0.086"/>
+  <testcase name="testBridge" classname="edu.uob.ExampleSTAGTests" time="0.091"/>
+  <testcase name="testHealth" classname="edu.uob.ExampleSTAGTests" time="0.017"/>
+  <testcase name="testAfterLife" classname="edu.uob.ExampleSTAGTests" time="0.135"/>
+  <testcase name="testUnlock" classname="edu.uob.ExampleSTAGTests" time="0.038"/>
+</testsuite>
